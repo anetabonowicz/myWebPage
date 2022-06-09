@@ -110,6 +110,11 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+
+  #profile_img {
+    max-width: 35vw;
+    height: auto;
+  }
 }
 /*--------------------------------------------------------------
 # Header
@@ -464,9 +469,9 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume{
+/*.resume{
   display: none;
-}
+}*/
 
 .resume .resume-title {
   font-size: 26px;
@@ -677,6 +682,7 @@ section {
   opacity: 1;
   border: 1px solid #0563bb;
 }
+
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0563bb;
 }
@@ -709,6 +715,10 @@ section {
 }
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+.swiper-slide img{
+  width: auto;
+  max-height: 70vh;
 }
 
 /*--------------------------------------------------------------
